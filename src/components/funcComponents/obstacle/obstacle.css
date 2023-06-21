@@ -1,0 +1,9 @@
+.divObstacle {
+    position: absolute;
+    left: 70%;
+    width: 75px;
+    background-color: transparent;
+    background-image: url("../../../assets/images/stall.png");
+    background-size: cover;
+    background-position: center;
+}

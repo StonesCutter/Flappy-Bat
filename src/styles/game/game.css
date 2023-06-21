@@ -1,0 +1,52 @@
+.gameParallax {
+  position: relative;
+  width: 1200;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.gameButton {
+  position: absolute;
+  bottom: -0.5%;
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  z-index: 1;
+}
+
+.gameScore {
+  position: absolute;
+  top: -2.5%;
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  z-index: 1;
+}
+
+.gameChar {
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.gameScoreCard {
+  width: 75%;
+  max-width: 400px;
+  min-width: 205px;
+  position: absolute;
+  z-index: 1;
+}

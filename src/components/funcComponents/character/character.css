@@ -1,0 +1,16 @@
+.divRed {
+    width: 150px;
+    height: 150px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   margin-top: 30vh;
+    margin-left: 40vw;
+    /*margin-top: 10px;*/
+    /*margin-bottom: 50px;*/
+}
+
+.divCharacter {
+    width: 75%;
+}

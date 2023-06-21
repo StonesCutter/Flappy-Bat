@@ -1,0 +1,47 @@
+.homeMain {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.homeFirst {
+    position: absolute;
+    top: 0%;
+    width: 80%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.homeSecond {
+    position: absolute;
+    top: 80%;
+    width: 70%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;   
+}
+
+.homeThird {
+    position: absolute;
+    top: 90%;
+    width: 80%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.posChar {
+    width: 150px;
+    height: 150px;
+}
