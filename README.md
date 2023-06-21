@@ -1,4 +1,5 @@
 # Description
+Flappy Bat is an experimental web game developed with React JS that is inspired by the famous game Flappy Bird. It was developed to learn the usage of sprites, parallaxes and generally to create an example of a simple game for the web.
 
 ## Screens
 - **LOGIN** - functional component
@@ -28,12 +29,12 @@
 - **ScoreCard**
 - **ScoreCardRanking**
 
-# Assets
+## Assets
 - **Images** - the folder contains all the images used for the skins, parallax, stalls, tutorial and coin
 - **Sounds** - the folder contains all the sounds used for the click of the buttons, the choice of the skin, the gainin of scores, the fly flap,
   the game music and the hit sound effect
 
-# Utils
+## Utils
 - **gameMechanicsUtils** - This file contains all the functions relative to the mechanics of the game, such as collision checks, generation of obstacles including their random size and positions, update of scores in case the obstacles are overcome.
 - **skinUtils** - This file contain the function used to choose the skin according to the string passed
 - **navigateUtils** - This file contains the utils used for the navigation
@@ -41,6 +42,13 @@
 - **scoreListUtils** - This file containt all the functions used to update the data of the ranking List and user data saved on the local storage, but also to
    get data from the local storage. It also contains the functions to initialize the local storage.
 
+# Libraries used
+- **react-spring/parallax** - parallax background images
+- **howler** - sound effects
+- **prop-types** - types of props
+- **react-responsive-spritesheet** - spritesheets
+- **react-router-dom** - routing
+  
 # Some images
 ![image](https://github.com/StonesCutter/Flappy-Bat/assets/56195722/e4fde36f-5356-445b-957b-7845be7da988)
 ![image](https://github.com/StonesCutter/Flappy-Bat/assets/56195722/a4670ee7-9362-4c25-ae50-899ad72e1d4e)
